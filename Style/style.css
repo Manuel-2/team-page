@@ -48,7 +48,38 @@ body{
 }
 
 .main{
+    width: 100%;
     margin: 35px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-item{
+    width: 156px;
+    height: 237px;
+    /* margin-bottom: 64px;
+    margin-right: 20px; */
+}
+
+.main-item__member{
+    display: flex;
+}
+
+.main-item__member__picture{
+    width: 139px;
+    height: 219px;
+}
+
+.main-item__member__role{
+    writing-mode: vertical-lr;
+    font-size: 1rem;
+}
+
+.main-item__member-name{
+    font-size: 1.4rem;
+    font-weight: 600;
 }
 
 .footer{
