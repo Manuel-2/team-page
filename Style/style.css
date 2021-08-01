@@ -28,7 +28,7 @@ body{
 
 .header{
     width: 100%;
-    max-width: 600px;
+    max-width: 750px;
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -59,7 +59,7 @@ body{
 
 .main{
     width: 100%;
-    max-width: 600px;
+    max-width: 800px;
     margin: 5px 0;
     display: flex;
     flex-direction: row;
@@ -109,3 +109,32 @@ body{
 .footer__autor a{
     color: var(--principal-color);
 }
+
+@media (min-width: 600px) {
+    
+    .header__presentation__text{
+        font-size: 1.8rem;
+    }
+
+    .main-item__member__role{
+        font-size: 1.2rem;
+    }
+
+    .main-item__member-name{
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+
+    .main-item{
+        width: 264px;
+        height: 383px;
+    }
+
+
+    .main-item__member__picture{
+        width: 238px;
+        height: 341px;
+    }
+
+
+  }
