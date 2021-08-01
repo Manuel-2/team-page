@@ -31,7 +31,7 @@
 
 ## Overview
 
-![overview.png](https://postimg.cc/jLxHD9nv)
+![overview.png](https://i.postimg.cc/PrZ2RnXG/preview.png)
 
 you can se the proyect deployed [here](https://team-page-alpha.vercel.app/)
 
